@@ -1,9 +1,9 @@
-# Gestão de Consumo de Energia
+# Registros de uso de IA
 
 ## Descrição
-O projeto **Gestão de Consumo de Energia** tem como objetivo gerenciar e monitorar o consumo de energia elétrica de diferentes equipamentos e locais.
+O projeto **Registros de uso de IA** tem como objetivo gerenciar e monitorar os registros de usos de IA.
 
-O sistema permite realizar o cadastro de usuários, registrar informações de consumo, consultar, atualizar e excluir registros, além de calcular a média geral de consumo em kWh.
+O sistema permite realizar o cadastro de usuários, registrar informações, consultar, atualizar e excluir registros e etc.
 
 ---
 
@@ -42,7 +42,7 @@ npm install mysql2, express, cors
 ### 4. Configurar o banco de dados
 * Abrir o MySQL.
 * Executar o script SQL disponibilizado no projeto.
-* O script criará o banco de dados `gestao_consumo`, as tabelas `usuario` e `consumo` e inserirá dados para testes.
+* O script criará o banco de dados `usos_ia`, as tabelas `usuario` e `usoia` e inserirá dados para testes.
 
 ### 5. Iniciar o servidor
 ```bash
