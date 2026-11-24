@@ -1,0 +1,234 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-11-24T11:08:59.697Z",
+  "__export_source": "Otimizador StatTrak v1.1",
+  "resources": [
+    {
+      "_id": "wrk_gestao_consumo",
+      "parentId": null,
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "name": "API gestao_consumo - StatTrak",
+      "description": "Coleção gerada automaticamente",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "fld_gestao_consumo_usuario",
+      "parentId": "wrk_gestao_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "name": "USUARIO",
+      "description": "Rotas CRUD para a tabela usuario",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -2000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_usuario_listar",
+      "parentId": "fld_gestao_consumo_usuario",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/usuario",
+      "name": "Listar usuario",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -5,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_buscar",
+      "parentId": "fld_gestao_consumo_usuario",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Buscar usuario por id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -4,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_criar",
+      "parentId": "fld_gestao_consumo_usuario",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/usuario",
+      "name": "Criar usuario",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"exemplo\",\n  \"email\": \"exemplo@email.com\",\n  \"senha\": \"senha123\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -3,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_atualizar",
+      "parentId": "fld_gestao_consumo_usuario",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Atualizar usuario",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"nome\": \"exemplo\",\n  \"email\": \"exemplo@email.com\",\n  \"senha\": \"senha123\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -2,
+      "_type": "request"
+    },
+    {
+      "_id": "req_usuario_deletar",
+      "parentId": "fld_gestao_consumo_usuario",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/usuario/1",
+      "name": "Deletar usuario",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1,
+      "_type": "request"
+    },
+    {
+      "_id": "fld_gestao_consumo_consumo",
+      "parentId": "wrk_gestao_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "name": "CONSUMO",
+      "description": "Rotas CRUD para a tabela consumo",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_consumo_listar",
+      "parentId": "fld_gestao_consumo_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/consumo",
+      "name": "Listar consumo",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -5,
+      "_type": "request"
+    },
+    {
+      "_id": "req_consumo_buscar",
+      "parentId": "fld_gestao_consumo_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/consumo/1",
+      "name": "Buscar consumo por id",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -4,
+      "_type": "request"
+    },
+    {
+      "_id": "req_consumo_criar",
+      "parentId": "fld_gestao_consumo_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/consumo",
+      "name": "Criar consumo",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": 1,\n  \"local\": \"exemplo\",\n  \"equipamento\": \"exemplo\",\n  \"consumoKwh\": 10.5,\n  \"mesReferencia\": \"exemplo\",\n  \"status\": \"Baixo\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -3,
+      "_type": "request"
+    },
+    {
+      "_id": "req_consumo_atualizar",
+      "parentId": "fld_gestao_consumo_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/consumo/1",
+      "name": "Atualizar consumo",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"usuarioId\": 1,\n  \"local\": \"exemplo\",\n  \"equipamento\": \"exemplo\",\n  \"consumoKwh\": 10.5,\n  \"mesReferencia\": \"exemplo\",\n  \"status\": \"Baixo\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -2,
+      "_type": "request"
+    },
+    {
+      "_id": "req_consumo_deletar",
+      "parentId": "fld_gestao_consumo_consumo",
+      "modified": 1795518539697,
+      "created": 1795518539697,
+      "url": "http://localhost:3000/consumo/1",
+      "name": "Deletar consumo",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1,
+      "_type": "request"
+    }
+  ]
+}
