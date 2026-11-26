@@ -1,7 +1,7 @@
-# Registros de uso de IA
+# Registro de Consumo de Energia
 
 ## Descrição
-O projeto **Registros de uso de IA** tem como objetivo gerenciar e monitorar os registros de usos de IA.
+O projeto **Registro de Consumo de Energia** tem como objetivo gerenciar e monitorar os registros de consumo de energia.
 
 O sistema permite realizar o cadastro de usuários, registrar informações, consultar, atualizar e excluir registros e etc.
 
