@@ -67,3 +67,65 @@ Utilizar o Insomnia para realizar requisições HTTP e testar as funcionalidades
 
 
 ## Testes do Insomnia
+
+## Testes usuarios
+### Login usuario
+<p align="left">
+  <img src="./docs/usuario_login.png" alt="Login usuario">
+</p>
+
+### Listar usuario
+<p align="left">
+  <img src="./docs/usuario_listar.png" alt="Listar usuario">
+</p>
+
+### Buscar usuario
+<p align="left">
+  <img src="./docs/usuario_buscar.png" alt="Buscar usuario">
+</p>
+
+### Cadastrar usuario
+<p align="left">
+  <img src="./docs/usuario_cadastrar.png" alt="Cadastrar usuario">
+</p>
+
+### Deletar usuario
+<p align="left">
+  <img src="./docs/usuario_deletar.png" alt="Deletar usuario">
+</p>
+
+### Atualizar usuario
+<p align="left">
+  <img src="./docs/usuario_atualizar.png" alt="Atualizar usuario">
+</p>
+
+## Testes consumo
+### Listar consumo
+<p align="left">
+  <img src="./docs/consumo_listar.png" alt="Listar consumo">
+</p>
+
+### Buscar consumo
+<p align="left">
+  <img src="./docs/consumo_buscar.png" alt="Buscar consumo">
+</p>
+
+### Cadastrar consumo
+<p align="left">
+  <img src="./docs/consumo_cadastrar.png" alt="Cadastrar consumo">
+</p>
+
+### Deletar consumo
+<p align="left">
+  <img src="./docs/consumo_deletar.png" alt="Deletar consumo">
+</p>
+
+### Atualizar consumo
+<p align="left">
+  <img src="./docs/consumo_atualizar.png" alt="Atualizar consumo">
+</p>
+
+### Resumo consumo
+<p align="left">
+  <img src="./docs/consumo_resumo.png" alt="Resumo consumo">
+</p>
