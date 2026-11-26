@@ -11,6 +11,10 @@ O sistema permite realizar o cadastro de usuários, registrar informações, con
 <p align="left">
   <img src="./docs/MER_DER.png" alt="Diagrama de Classes">
 </p>
+<p align="left">
+  <img src="./docs/Captura de tela 2026-11-26 165659.png" alt="Diagrama de Classes">
+</p>
+
 
 ---
 
